@@ -1,0 +1,19 @@
+Student Name: [Name]
+GD Topic: [Topic]
+Duration: [Duration]
+Overall Score: [Score]
+
+Leadership Potential: [Score]
+- [Feedback]
+
+Domain Knowledge: [Score]
+- [Feedback]
+
+Communication Skills: [Score]
+- [Feedback]
+
+Teamwork: [Score]
+- [Feedback]
+
+Summary:
+[Summary]

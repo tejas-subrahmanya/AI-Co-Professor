@@ -1,0 +1,42 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.11/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.11",
+  "version": "1.0.0",
+  "id": "your-app-id",
+  "packageName": "com.yourcompany.aico-professor",
+  "developer": {
+    "name": "Tejas Subrahmanya",
+    "websiteUrl": "https://yourwebsite.com",
+    "privacyUrl": "https://yourwebsite.com/privacy",
+    "termsOfUseUrl": "https://yourwebsite.com/terms"
+  },
+  "name": {
+    "short": "AI Co-Professor",
+    "full": "AI Co-Professor for GD Evaluation"
+  },
+  "description": {
+    "short": "Evaluate GD performance with AI.",
+    "full": "Assess students' group discussion performance and provide instant feedback."
+  },
+  "icons": {
+    "outline": "outline-icon.png",
+    "color": "color-icon.png"
+  },
+  "accentColor": "#004578",
+  "staticTabs": [
+    {
+      "entityId": "gdDashboard",
+      "name": "GD Dashboard",
+      "contentUrl": "https://yourapp.com/dashboard",
+      "websiteUrl": "https://yourapp.com",
+      "scopes": ["personal"]
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "yourapp.com"
+  ]
+}
